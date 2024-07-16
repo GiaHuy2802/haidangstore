@@ -267,13 +267,19 @@ border-radius: 4px;
   gap: 16px;
   align-items: center;
 }
-header .menu_category img{
+.lv img{
   display: none;
+}
+header .sub_menu .wrp a img{
+  display: flex;
 }
 summary{
   display: none ;
 }
 a#menu_close{
+  display: none;
+}
+a#menu_sub{
   display: none;
 }
 @media(max-width:1200px){
@@ -328,9 +334,14 @@ a#menu_close{
   flex-wrap: wrap;
   width: 100%;
 }
+a#menu_sub{
+  display: flex;
+}
 
 }
 @media(max-width:1108px){
+
+  
   .home_collection_product .wrp{
     display: flex;
     flex-direction: column;

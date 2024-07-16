@@ -154,7 +154,7 @@ span.sold {
   flex-direction: row;
   justify-content: space-evenly;
   gap: 72px;
-  background: url(/images/image\ 32.svg) repeat no-repeat;
+  background: url(./images/image\ 32.svg) repeat no-repeat;
   border-radius: 16px;
   align-items: center;
 }
@@ -350,6 +350,15 @@ label.register button {
 label.register input:not([type="checkbox"], [type="radio"]) {
   background: unset;
   width: 80%;
+}
+.home_product.blog a.group_item:hover .detail_pro h3.name{
+  color: #ffffff;
+}
+.home_product.blog a.group_item:hover img{
+  transform: unset;
+}
+.home_product.service a.group_item:hover img{
+  transform: unset;
 }
 @media(max-width:1200px){
   .advand_item .wrp{
