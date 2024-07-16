@@ -167,7 +167,7 @@ cursor: pointer;
   position: relative;
 }
 .memory_choose .op1.active::after{
-  background: url(/icon/Frame\ 638.svg) no-repeat center center;
+  background: url(../icon/Frame\ 638.svg) no-repeat center center;
   width: 28px;
     height: 28px;
     content: "";
@@ -197,8 +197,11 @@ text-align: left;
   display: flex;
   border-radius: 50%;
 }
+.color_choose a:hover{
+  border: 1px solid #141414;
+}
 .color_choose a.active{
-  background: url(/icon/check.svg)no-repeat center center;
+  background: url(../icon/check.svg)no-repeat center center;
   z-index: 999;
   width: 40px;
   height: 40px;
@@ -376,6 +379,9 @@ padding: 26px 16px;
 @media(max-width:1200px){
   .product_detail .wrp{
     width: 100%;
+  }
+  .color_choose a:hover{
+    border:unset;
   }
   .desc_product{
     width: 100%;
