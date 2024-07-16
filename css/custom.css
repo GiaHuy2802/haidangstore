@@ -282,6 +282,9 @@ a#menu_close{
 a#menu_sub{
   display: none;
 }
+label.register button{
+  cursor: pointer;
+}
 @media(min-width:1200px){
   header .menu_category{
     display: flex;
