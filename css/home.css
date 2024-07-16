@@ -148,6 +148,9 @@ span.sold {
 .home_banner_2 {
   margin-bottom: var(--block-margin);
 }
+.home_banner img{
+  width: 100%;
+}
 .home_banner_2 .wrp {
   padding: 38px 80px;
   display: flex;
