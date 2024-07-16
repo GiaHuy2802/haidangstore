@@ -15,14 +15,14 @@
     font-family: SF Pro Display;
     font-weight: 400;
     font-display: swap;
-    src: url('../fonts/SF-Pro-Display-Medium.woff2') format('woff2');
+    src: url('../fonts/SF-Pro-Display-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: SF Pro Display;
     font-weight: 500;
     font-display: swap;
-    src: url('../fonts/SF-Pro-Display-Medium.woff2') format('woff2');
+    src: url('../') format('woff2');
 }
 @font-face {
     font-family: SF Pro Display;
