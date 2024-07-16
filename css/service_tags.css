@@ -1,0 +1,136 @@
+.home_product.service{
+    margin-top:var(--primary-margin)
+}
+.home_product .wrp{
+    flex-wrap: wrap;
+    flex-direction: unset;
+    gap: 32px;
+    align-items: unset;
+}
+.col_left{
+    width: 304px;
+}
+.sub_menu_tags{
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 0;
+    background: #ffffff;
+    border-radius: 16px;
+    width: 100%;
+}
+.sub_menu_tags a{
+    padding: 12px 24px;
+color: #8E8E93;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+}
+.sub_menu_tags a.active{
+    color:#1C1C1E;
+}
+.col_right{
+    width: calc(100% - 336px);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.home_product .heading h2{
+font-size: 36px;
+font-weight: 600;
+line-height: 48px;
+text-align: left;
+
+}
+.home_product a.group_item:hover img{
+    transition:unset;
+    transform: unset;
+}
+.home_product a.group_item:hover .detail_pro h3.name{
+    color: #1c1c1e; 
+}
+.home_product a.group_item:hover{
+    box-shadow: unset;
+}
+.sub_menu_tags details{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #ffffff;
+    border-radius: 16px;
+    width: 100%;
+
+}
+summary{
+    display: none;
+}
+@media(max-width:1200px){
+    .sub_menu_tags {
+        width: 100%; 
+        background: unset;
+        padding: 0;
+      }
+  
+      .sub_menu_tags details {
+        background: unset;
+
+      }
+  
+      .sub_menu_tags summary {
+        display: flex;
+        padding: 10px;
+        background: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        justify-content: space-between;
+      }
+  
+      .sub_menu_tags a {
+        display: block;
+        padding: 10px;
+        background: #f9f9f9;
+        border-bottom: 1px solid #eee;
+        text-decoration: none;
+        color: #333;
+      }
+  
+      .sub_menu_tags a:last-child {
+        border-bottom: none;
+      }
+  
+      .sub_menu_tags a:hover {
+        background: #e0e0e0;
+      }
+  
+      .sub_menu_tags details[open] {
+        open: false;
+      }
+      .col_left{
+        width: 100%;
+     }
+     .col_right{
+         width: 100%;
+     }
+}
+@media(max-width: 767px){
+   
+    .home_product .heading h2{
+        font-size:24px ;
+        font-weight: 600;
+    }
+    .home_product .wrp{
+        padding: 0 16px;
+        gap: 16px;
+    }
+    .home_product a.group_item img{
+        padding: 0;
+    }
+    .home_product.service a.group_item{
+        padding: 0;
+    }
+  
+}

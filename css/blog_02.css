@@ -1,0 +1,35 @@
+.sub_menu_tags a {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+.sub_menu_tags a img{
+    opacity: 40%;
+}
+.sub_menu_tags a.active img{
+    opacity: 100%;
+}
+p.meta_desc{
+color:var(--color-default);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+}
+.col_right img.img_title{
+    width: 100%;
+    object-fit: cover;
+}
+@media(max-width:1200px){
+    .col_left{
+        width: 100%;
+    }
+    .sub_menu_tags a{
+        background: unset;
+        border: unset;
+    }
+    .sub_menu_tags details{
+        background: #ffffff;
+    }
+}

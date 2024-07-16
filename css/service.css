@@ -1,0 +1,24 @@
+.home_product {
+  margin-top: 40px;
+}
+.home_product .wrp {
+  align-items: unset;
+}
+.home_product .heading h2 {
+  text-align: start;
+  color: #000000;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+}
+.home_product a.group_item:hover img{
+    transition:unset;
+    transform: unset;
+}
+.home_product a.group_item:hover .detail_pro h3.name{
+    color: #1c1c1e; 
+}
+.home_product a.group_item:hover{
+    box-shadow: unset;
+}

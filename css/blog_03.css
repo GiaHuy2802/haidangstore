@@ -1,0 +1,124 @@
+.head_blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.head_blog h1 {
+  color: var(--color-default);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+}
+.head_blog form {
+  width: 368px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 16px;
+  border: 1px solid #d1d1d6;
+  border-radius: 800px;
+  background: #ffffff;
+}
+.head_blog form input {
+  color: #8e8e93;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+button.wrp_img {
+  padding: 0;
+  border: 0;
+  background: unset;
+  display: flex;
+  cursor: pointer;
+}
+.group_news_blog a{
+    width: calc((100% - 64px) / 3);
+}
+.group_news_blog a img{
+    width: 100%;
+
+}
+
+.wrp_imgs{
+    width: 304px;
+    height: 200px;
+}
+.paging{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: end;
+    align-items: center;
+}
+.paging a{
+    width: 40px;
+    justify-content: center;
+display: flex;
+align-items: center;
+padding: 8px;
+color: var(--color-default);
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+border: 1px solid #D1D1D6;
+border-radius: 4px;
+}
+.paging a.active{
+    background: #1C1C1E;
+color:#ffffff;
+}
+.paging a:hover{
+    background: #1C1C1E;
+color:#ffffff;
+}
+.paging a:first-child{
+    background: unset;
+color:#ffffff;
+}
+.paging a:last-child{
+    background: unset;
+color:#ffffff;}
+@media(max-width:1200px){
+  .wrp_imgs{
+    width: 100%;
+  }
+}
+@media(max-width:768px){
+  .wrp_imgs{
+    width: 100%;
+  }
+  .group_news_blog{
+    gap: 16px;
+  }
+  .group_news_blog a{
+    width: calc((100% - 16px) / 2);
+  }
+  .head_blog form{
+    width: 100%;
+  }
+  .head_blog h1{
+   display: none;
+  }
+}
+@media(max-width:480px){
+  .group_news_blog a{
+    width: 100%;
+  }
+  .paging a:nth-child(5){
+    display: none;
+  }
+  .paging a:nth-child(6){
+    display: none;
+  }
+  .paging a:nth-child(7){
+    display: none;
+  }
+  .paging a:nth-child(8){
+    display: none;
+  }
+}

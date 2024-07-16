@@ -1,0 +1,121 @@
+.contact {
+  margin-top:var(--primary-margin);
+  margin-bottom: 100px;
+}
+.wrp {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.col_left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.col_left h2 {
+  color: #141414;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+.col_left strong {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: var(--color-default);
+}
+.col_left span {
+  font-weight: 400;
+  color: #636366;
+}
+.information form {
+  width: calc(55% - 32px);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.information form input,
+textarea {
+  padding: 12px 16px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  border-radius: 8px;
+  color: #8e8e93;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.information form button {
+  padding: 12px;
+  background: #0066cc;
+  border: unset;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+cursor: pointer;
+}
+.information form h2{
+  color: #141414;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+}
+.media {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+@media(max-width:1200px){
+  .contact{
+    margin-bottom: var(--block-margin);
+  }
+  .wrp{
+    gap: 24px;
+    padding: 0 16px;
+    width: 100%;
+  }
+  .wrp h1{
+    font-weight: 600;
+  }
+  .col_left{
+    width: 100%;
+    gap: 16px;
+  }
+  .information form{
+    width: 100%;
+    gap: 16px;
+  }
+  .col_left strong{
+    white-space: nowrap;
+    width: 120px;
+  }
+  .col_left span.medias {
+  display: flex;
+  align-items: center;
+  }
+  .media{
+    width: calc(100% - 179px);
+  }
+  .information{
+    padding: 16px;
+    background: #FFFFFF;
+    border-radius: 16px;
+  }
+  .suggest{
+    height: 350px;
+  }
+}
