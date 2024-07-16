@@ -15,27 +15,27 @@
     font-family: SF Pro Display;
     font-weight: 400;
     font-display: swap;
-    src: url('/fonts/SF-Pro-Display-Medium.woff2') format('woff2');
+    src: url('../fonts/SF-Pro-Display-Medium.woff2') format('woff2');
 }
 
 @font-face {
     font-family: SF Pro Display;
     font-weight: 500;
     font-display: swap;
-    src: url('/fonts/SF-Pro-Display-Medium.woff2') format('woff2');
+    src: url('../fonts/SF-Pro-Display-Medium.woff2') format('woff2');
 }
 @font-face {
     font-family: SF Pro Display;
     font-weight: 600;
     font-display: swap;
-    src: url('/fonts/SF-Pro-Display-Semibold.woff2') format('woff2');
+    src: url('../fonts/SF-Pro-Display-Semibold.woff2') format('woff2');
 }
 
 @font-face {
     font-family: SF Pro Display;
     font-weight: 700;
     font-display: swap;
-    src: url('/fonts/SF-Pro-Display-Bold.woff2') format('woff2');
+    src: url('../fonts/SF-Pro-Display-Bold.woff2') format('woff2');
 }
 p{margin: 0;}
 * {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
