@@ -282,7 +282,15 @@ a#menu_close{
 a#menu_sub{
   display: none;
 }
-@media(max-width:1200px){
+@media(min-width:1200px){
+  header .menu_category{
+    display: flex;
+  }
+  a#menu_sub{
+    display: none;
+  }
+}
+@media(max-width:1199px){
   .wrp{
     padding: 0 16px;
   }
