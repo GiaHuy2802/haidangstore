@@ -43,7 +43,7 @@ form.search button {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-
+cursor: pointer;
 }
 @media(max-width:1200px){
   .home_product a.group_item:hover img{
