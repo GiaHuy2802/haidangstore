@@ -136,12 +136,11 @@ section.desc_product {
 a.toggle.expanded {
     transform: rotate(180deg);
 }
+
 @media(max-width:1200px) {
   .desc_product .wrp{
     width: 100%;
   }
-}
-@media(max-width:1200px) {
   .home_product.product_list .cate_items{
     flex-direction: column;
     align-items: unset;
